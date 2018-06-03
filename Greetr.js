@@ -73,6 +73,23 @@
 
       return this;
     }
+
+    HTMLGreeting: function (selector, formal) {
+      if (!$) {
+        throw 'jQuery not loaded';
+      }
+
+      if (!selector) {
+        throw 'Missing jQuery selector';
+      }
+
+      var msg;
+
+      if (condition) { // finish here tomorrow
+
+}
+
+    }
   };
 
   Greetr.init = function(firstName, lastName, language) {
